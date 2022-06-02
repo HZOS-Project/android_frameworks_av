@@ -28,7 +28,6 @@
 #include <audio_utils/primitives.h>
 #include <audio_utils/format.h>
 
-
 namespace android {
 
 status_t DataConverter::convert(const sp<MediaCodecBuffer> &source, sp<MediaCodecBuffer> &target) {
